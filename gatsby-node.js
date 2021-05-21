@@ -55,8 +55,9 @@ exports.sourceNodes = async (
     const {createNode, deleteNode, touchNode, createTypes} = actions;
 
     const template = await remoteConfig.getTemplate()
-    const parameters = Object.entries(parameterGroup !== null ? template.parameterGroups[parameterGroup].parameters : template.parameters)
-    const finalParams = fields !== null && fields.length > 0 ? parameters.filter(([key, value]) => fields.includes(key)) : parameters
+    const parameters = Object.entries(parameterGroup && parameterGroup !== null ? template.parameterGroups[parameterGroup].parameters : template.parameters)
+    const finalParams = fields && fields !== null && fields.length > 0 ? parameters.filter(([key, value]) => fields.includes(key)) : parameters
+
     let promises = finalParams
         .map(([key, {defaultValue: {value}}]) => {
             const {type, parsedValue} = getType(value)

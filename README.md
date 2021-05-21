@@ -1,4 +1,4 @@
-# gatsby-source-remote-config [![npm](https://img.shields.io/npm/v/@marcostoduto/gatsby-source-remote-config)](https://www.npmjs.com/package/@marcostoduto/gatsby-source-remote-config) ![node](https://img.shields.io/node/v/firebase-admin)
+# gatsby-source-remote-config [![npm](https://img.shields.io/npm/v/@mstoduto/gatsby-source-remote-config)](https://www.npmjs.com/package/@mstoduto/gatsby-source-remote-config) ![node](https://img.shields.io/node/v/firebase-admin)
 
 Gatsby plugin for connecting [Firebase Remote Config](https://firebase.google.com/products/remote-config)
 as a data source. 
@@ -13,9 +13,9 @@ as a data source.
 3. Add `gatsby-source-remote-config` as a dependency by running using `npm` or `yarn`:
 
    ```sh
-   npm i @marcostoduto/gatsby-source-remote-config
+   npm i @mstoduto/gatsby-source-remote-config
    # or
-   yarn add @marcostoduto/gatsby-source-remote-config
+   yarn add @mstoduto/gatsby-source-remote-config
    ```
 
 4. Configure settings at `gatsby-config.js`, for example:
@@ -23,7 +23,7 @@ as a data source.
 module.exports = {
     plugins: [
         {
-            resolve: `@marcostoduto/gatsby-source-remote-config`,
+            resolve: `@mstoduto/gatsby-source-remote-config`,
             options: {
                 // credential or appConfig
                 credential: require(`./credentials.json`),

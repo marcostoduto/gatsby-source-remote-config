@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-remote-config",
+  "name": "@mstoduto/gatsby-source-remote-config",
   "description": "Gatsby source plugin for building websites using the Remote Config as a data source",
   "keywords": [
     "firebase",
@@ -31,11 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcostoduto/gatsby-firestore.git"
+    "url": "git+https://github.com/marcostoduto/gatsby-source-remote-config.git"
   },
   "author": "Marco Stoduto <m.m.stoduto@gmail.com>",
   "bugs": {
-    "url": "https://github.com/marcostoduto/gatsby-firestore/issues"
+    "url": "https://github.com/marcostoduto/gatsby-source-remote-config/issues"
   },
-  "homepage": "https://github.com/marcostoduto/gatsby-firestore#readme"
+  "homepage": "https://github.com/marcostoduto/gatsby-source-remote-config#readme",
+  "version": "1.0.0"
 }

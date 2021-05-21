@@ -31,11 +31,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MartinReiche/gatsby-firestore.git"
+    "url": "git+https://github.com/marcostoduto/gatsby-firestore.git"
   },
-  "author": "Martin Reiche <martin@reiche.dev> (https://martinreiche.dev/)",
+  "author": "Marco Stoduto <m.m.stoduto@gmail.com>",
   "bugs": {
-    "url": "https://github.com/MartinReiche/gatsby-firestore/issues"
+    "url": "https://github.com/marcostoduto/gatsby-firestore/issues"
   },
-  "homepage": "https://github.com/MartinReiche/gatsby-firestore#readme"
+  "homepage": "https://github.com/marcostoduto/gatsby-firestore#readme"
 }

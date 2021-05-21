@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-source-remote-config",
+  "description": "Gatsby source plugin for building websites using the Remote Config as a data source",
+  "keywords": [
+    "firebase",
+    "remote-config",
+    "gatsby-plugin",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "gatsby-source",
+    "gatsby"
+  ],
+  "engines": {
+    "node": ">=8.13.0"
+  },
+  "main": "gatsby-node.js",
+  "files": [
+    "gatsby-node.js",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "prettier --write gatsby-node.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^9.7.0",
+    "gatsby-cli": "^3.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinReiche/gatsby-firestore.git"
+  },
+  "author": "Martin Reiche <martin@reiche.dev> (https://martinreiche.dev/)",
+  "bugs": {
+    "url": "https://github.com/MartinReiche/gatsby-firestore/issues"
+  },
+  "homepage": "https://github.com/MartinReiche/gatsby-firestore#readme"
+}
